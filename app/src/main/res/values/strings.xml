@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Loja de Cds</string>
+    <string name="inserir_g_neros">Inserir Gêneros</string>
+    <string name="listar_cds">Listar Cds</string>
+    <string name="inserir_cds">Inserir Cds</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="g_nero_musical">(Gênero musical)</string>
+    <string name="somente_leitura">(somente leitura)</string>
+</resources>

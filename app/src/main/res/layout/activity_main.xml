@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="br.com.christian.lojadecds.MainActivity">
+
+    <Button
+        android:text="@string/inserir_g_neros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GeneroClick"/>
+
+    <Button
+        android:text="@string/inserir_cds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="CdsClick"/>
+
+    <Button
+        android:text="@string/listar_cds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lstCdsClick"/>
+
+    <EditText
+        android:id="@+id/edtPesquisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/pesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="PesquisarClick"/>
+
+    <TextView
+        android:id="@+id/texto"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
